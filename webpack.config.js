@@ -1,6 +1,6 @@
 const path = require('path'),
 	  sourcePath = path.join(__dirname, './sources'),
-	  outputPath = path.join(__dirname, './dist'),
+	  outputPath = path.join(__dirname, './docs'),
 	  webpackCleanUpPlugin = require('webpack-cleanup-plugin'),
 	  HtmlWebpackPlugin = require('html-webpack-plugin');
 
